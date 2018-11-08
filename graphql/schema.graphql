@@ -1,5 +1,10 @@
-type Query{
-    name: String!    
+type sunghyun {
+    name: String!
+    age: Int!
+    gender: String!
 }
 
- 
+
+type Query{
+    person: sunghyun!    
+}
